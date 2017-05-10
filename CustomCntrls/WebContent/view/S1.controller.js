@@ -6,6 +6,7 @@ jQuery.sap.require("sap.m.MessageBox");
 sap.ca.scfld.md.controller.BaseFullscreenController.extend("com.sap.fullscreen.view.S1", {
 	onInit : function() {
 		//this is edited to check impact on git
+		//this is another comment
 		that = this;
 		that.months  = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 		var oOptions = {

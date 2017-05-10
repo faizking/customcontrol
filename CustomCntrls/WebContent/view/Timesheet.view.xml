@@ -1,0 +1,18 @@
+<core:View xmlns:core="sap.ui.core" xmlns="sap.m"
+	controllerName="com.sap.fullscreen.view.Timesheet">
+	<Page class="sapUiSizeCompact">
+		<content>
+			<Panel>
+				<Table id="ID_TIMSHEETTABLE">
+					<headerToolbar>
+						<Toolbar>
+							<Title text="Timesheet Table"></Title>
+							<ToolbarSpacer />
+							<Button type="Accept" icon="sap-icon://add" press="onAddTimesheetRow"></Button>
+						</Toolbar>
+					</headerToolbar>
+				</Table>
+			</Panel>
+		</content>
+	</Page>
+</core:View>

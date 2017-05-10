@@ -1,0 +1,77 @@
+.sapMTB {
+	border-bottom: 0px solid #cdcdcd;
+}
+
+.calBody {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.calList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.calList>li>div:last-child {
+	width: 8rem;
+	background-color: #f2f2f2;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.calList>li>div:last-child:hover {
+	background-color: #e5e5e5;
+	cursor: pointer;
+}
+
+.calList>li>div:first-child {
+	user-select: none;
+	font-size: 0.700rem;
+	text-align: center;
+}
+
+.itemActive {
+	user-select: none;
+	background-color: #007cc0 !important;
+	color: #ffffff;
+}
+
+.itemInactive {
+	user-select: none;
+	background-color: #f2f2f2;
+	color: #000000;
+}
+
+.itemBooked {
+	background-color: #7fbb99 !important;
+}
+
+.itemPartiallyBooked {
+	background-color: #fae2a6 !important;
+}
+
+html.sap-phone * .calList>li>div:last-child {
+	width: 3.6rem;
+	height: 2.4rem;
+	text-align: center;
+	background-color: #f2f2f2;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	font-size: 0.8rem;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+
+.sapMeCalendarLegendApproval .sapUIMeLegendColorForType04 {
+	background-color: #7fbb99 !important;
+	background-image: none    !important;
+}
